@@ -1,0 +1,21 @@
+Ext.define('CustomApp', {
+extend: 'Rally.app.App',
+componentCls: 'app',
+launch: function() {
+	console.log("Our First App ..Woot!");
+}
+});
+
+
+{
+    "name": "RallyAppBuilder",
+    "className": "CustomApp",
+    "server": "https://rally1.rallydev.com",
+    "sdk": "2.1",
+    "javascript": [
+        "App.js"
+    ],
+    "css": [
+        "app.css"
+    ]
+}
